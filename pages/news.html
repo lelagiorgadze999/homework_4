@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/style.css">
     <title>სიახლეები</title>
   </head>
   <body>
-    <header class="main_header">
+    <header class="main_header news_header">
       <img class="main_logo" src="../images/html_logo.svg" alt="html logo" />
       <nav>
         <ul>
@@ -17,47 +19,49 @@
       </nav>
     </header>
     <section class="news">
-      <img
+      <div class="container_news">
+        <img
         class="blue_photo"
         src="../images/blue_img.svg"
         alt="html photo with blue background"
       />
+      </div>
+      
       <section class="cards">
-        <div class="title_box">
-          <h3 class="card_title first">სიახლეები</h3>
-          <div class="empty_cards"></div>
-          <h4 class="card_title">იხილეთ დეტალურად ყველა სიახლე</h4>
+        <div class="container_news">
+          <div class="title_box">
+            <h3 class="card_title ">სიახლეები</h3>
+            <div class="empty_cards"></div>
+            <h4 class="card_title second">იხილეთ დეტალურად ყველა სიახლე</h4>
+          </div>
+          <div class="card1">
+            <h5 class="subtitle subtitle1">WEBPAGE DEVELOPERS</h5>
+            <img
+              class="search_img"
+              src="../images/search_img.svg"
+              alt="search sign image"
+            />
+            <p class="card_text">
+              Here we can see some random texts, hello, how are you. Here you can see another random texts, for your exercise. And wish you good luck. 
+            </p>
+          </div>
+          <div class="card2">
+            <h5 class="subtitle subtitle2">WEBPAGE ADRESSES</h5>
+            <img
+              class="submit_img"
+              src="../images/submit_img.svg"
+              alt="submit sign"
+            />
+            <p class="card_text">
+              Here we can see some random texts, hello, how are you. Here you can see another random texts, for your exercise. And wish you good luck. 
+            </p>
+          </div>
+        </section>
         </div>
-        <div class="card1">
-          <h5 class="subtitle">ვებგვერდების დეველოპერები</h5>
-          <img
-            class="search_img"
-            src="../images/search_img.svg"
-            alt="search sign image"
-          />
-          <p class="card_text">
-            არსებობს წარმოდგენა, რომ ვებგვერდის აწყობა მხოლოდ ტექნიკური
-            განათლების მქონე ადამიანს შეუძლია ისწავლოს. თუმცა, რაც დრო გადის,
-            საპირისპირო სურათს ვხედავთ
-          </p>
-        </div>
-        <div class="card2">
-          <h5 class="subtitle">ვებგვერდების მისამართები</h5>
-          <img
-            class="submit_img"
-            src="../images/submit_img.svg"
-            alt="submit sign"
-          />
-          <p class="card_text">
-            არსებობს წარმოდგენა, რომ ვებგვერდის აწყობა მხოლოდ ტექნიკური
-            განათლების მქონე ადამიანს შეუძლია ისწავლოს. თუმცა, რაც დრო გადის,
-            საპირისპირო სურათს ვხედავთ
-          </p>
-        </div>
-      </section>
     </section>
-    <footer>
-      <img
+    <footer class="news_footer">
+      <div class="container_news">
+        <img
         class="fb_icon"
         src="../images/facebook_icon.svg"
         alt=" facebook icon"
@@ -68,6 +72,8 @@
         src="../images/YouTube_icon.svg"
         alt=" youtube icon"
       />
+      </div>
+      
     </footer>
   </body>
 </html>
